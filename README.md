@@ -4,7 +4,7 @@
 
 [![Demo video thumbnail](https://img.youtube.com/vi/7kUfd5Z59dw/0.jpg)](https://www.youtube.com/watch?v=7kUfd5Z59dw)
 
-<https://youtu.be/7kUfd5Z59dw?si=yqa74LcTYOhb7b3g>
+- <https://youtu.be/7kUfd5Z59dw?si=yqa74LcTYOhb7b3g>
 
 ## Steps to Add `admin` Attribute to Devise `User` Class
 
