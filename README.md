@@ -1,8 +1,15 @@
-# Team xxxx
+# Admin User Attribute Demo
 
-## Team Members
+## Steps to Add `admin` Attribute to Devise `User` Class
 
-- xxxx
+- Step 1: Generate migration to add `boolean` attribute `admin` to `users` table.
+  - `rails generate migration AddAdminToUsers admin:boolean`
+- Step 2: Update migration to make `admin` default to `false`.
+  - `add_column :users, :admin, :boolean, default: false`
+- Step 3: Run the migration.
+  - `rails db:migrate:reset && rails db:seed`
+- Step 4: Update `seeds.rb` to create an admin user and reset and reseed the DB.
+- Step 5: Confirm that the seeded users are set up correctly using `rails console`.
 
 ## How to Initialize and Run the App
 
