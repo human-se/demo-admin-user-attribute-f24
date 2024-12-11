@@ -1,0 +1,15 @@
+@startuml Blog Model Class Diagram
+
+'!theme materia
+hide circles
+hide methods
+'show Xxxx methods
+'skinparam groupInheritance 2
+
+class User {
+    email : string
+    encrypted_password : string
+    admin : boolean
+}
+
+@enduml
